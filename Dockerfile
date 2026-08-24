@@ -1,7 +1,7 @@
 FROM eclipse-temurin:17-alpine
 WORKDIR /app
 
-COPY target/factory-0.0.1-SNAPSHOT.jar app.jar
+COPY target/devsecops-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
