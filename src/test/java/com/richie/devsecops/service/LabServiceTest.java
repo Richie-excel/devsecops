@@ -11,7 +11,7 @@ public class LabServiceTest {
         ServiceInfo info = labService.getLabById(7L);
 
         assertEquals(7L, info.id());
-        assertEquals("platform-lab-7", info.name());
+        assertEquals("Platform-lab-7", info.name());
         assertEquals("UP", info.status());
     }
 
